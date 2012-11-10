@@ -13,6 +13,7 @@ FACEBOOK_APP_ID = '432752806778674'
 FACEBOOK_APP_SECRET = '863f51d3fd98f5b368523e0fac16d781'
 
 AUTH_PROFILE_MODULE = 'django_facebook.FacebookProfile'
+FACEBOOK_REGISTRATION_BACKEND = 'registration.backends.default.DefaultBackend'
 
 DATABASES = {
     'default': {
