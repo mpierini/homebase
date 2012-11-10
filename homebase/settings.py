@@ -12,6 +12,8 @@ MANAGERS = ADMINS
 FACEBOOK_APP_ID = '432752806778674'
 FACEBOOK_APP_SECRET = '863f51d3fd98f5b368523e0fac16d781'
 
+AUTH_PROFILE_MODULE = 'django_facebook.FacebookProfile'
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.

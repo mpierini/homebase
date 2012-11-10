@@ -2,8 +2,6 @@ from django.db import models
 from django.contrib.auth.models import User
 import django.forms as forms
 
-AUTH_PROFILE_MODULE = 'django_facebook.FacebookProfile'
-
 class Team(models.Model):
     '''Information for individual teams.'''
     tid = models.AutoField(primary_key=True)
