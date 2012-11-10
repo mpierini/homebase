@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+AUTH_PROFILE_MODULE = 'django_facebook.FacebookProfile'
 
 class Team(models.Model):
 	'''Information for individual teams.'''
